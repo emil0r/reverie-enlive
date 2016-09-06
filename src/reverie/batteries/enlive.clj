@@ -7,6 +7,12 @@
 (defn render-fn [data]
   (cond
     ;; enlive data?
+    (and (seq? data)
+         (map? (first data))
+         (contains? (first data) :tag)
+         (contains? (first data) :attrs)
+         (contains? (first data) :content)) (emit* data)
+
     (and (map? data)
          (contains? data :tag)
          (contains? data :attrs)
