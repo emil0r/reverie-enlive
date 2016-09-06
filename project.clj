@@ -1,4 +1,4 @@
-(defproject reverie-enlive "0.1.0-SNAPSHOT"
+(defproject reverie-enlive "0.1.0"
   :description "Render function for reverie/CMS that supports enlive."
   :url "http://reveriecms.org"
   :license {:name "Eclipse Public License"

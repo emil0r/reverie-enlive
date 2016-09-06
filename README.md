@@ -6,7 +6,7 @@ Render function for reverie/CMS that supports enlive.
 
 
 ```clojure
-   [reverie-enlive "0.1.0-SNAPSHOT"]
+   [reverie-enlive "0.1.0]
 ```
 
 ```clojure
